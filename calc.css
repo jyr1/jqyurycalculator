@@ -1,11 +1,13 @@
 body {
-	
+	background-color:"red";
 }
 
 .nappi {
-	background-color:"red"
+	background-color:"red";
+	color:"red";
 }
 
 .pressed {
-	border-bottom-color: 'blue'
+	border-bottom-color: 'blue';
+	
 }

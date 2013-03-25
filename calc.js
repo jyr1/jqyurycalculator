@@ -1,8 +1,8 @@
 /**
  * @author syvaoja
  */
-	$(document).ready(function() {
-		$('nappi').on('click', function() {
-			$(this).hide();
-		});
-	});
+$(document).ready(function() {
+ $('button').click(function() {
+		$(this).hide();
+ });
+});
