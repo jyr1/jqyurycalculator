@@ -1,12 +1,13 @@
 body {
-	background-color="red"
+	background-color:red;
 }
-
 .nappi {
-	bgColor="#0000a0"
+	bgColor:#0000a0;
 }
-
 .pressed {
-	border-bottom-color='blue'
+	border-bottom-color:blue;
 	
+}
+.operatorplace {
+	display:none;
 }

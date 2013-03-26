@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-        <script src="jquery-1.9.1.js"></script>
+        <script src="lib/jquery/jquery-1.9.1.js"></script>
         <script src="calc.js"></script>
-        <link rel="stylesheet" href="/calc.css">
+        <link rel="stylesheet" href="calc.css">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>JQuery calculator</title>
@@ -15,6 +15,14 @@
                                 <td><textarea class="display" data-hascomma=false></textarea></td>
                         </tr>
                 </table>
+				<table id="operators" data-hasoperand=false>
+					<tr>
+						<td><button class="oper" data-value='+'>+</button></td>
+						<td><button class="oper" data-value='-'>-</button></td>
+						<td><button class="oper" data-value='*'>*</button></td>
+						<td><button class="oper" data-value='/'>/</button></td>	
+					</tr>
+				</table>
                 <table id="keyarea">
                 <tr>
                         <td>
@@ -26,6 +34,9 @@
                         <td>
                                 <button class="nappi" data-value='3'>3</button>
                         </td>
+						<td>
+								<textarea class="operatorplace"></textarea>
+						</td>
                 </tr>
                 <tr>
                         <td>
