@@ -3,6 +3,6 @@
  */
 $(document).ready(function() {
  $('button').click(function() {
-		$(this).hide();
+        $('.display').text($(this).data('value'));
  });
 });
