@@ -1,13 +1,12 @@
 body {
-	background-color:"red";
+	background-color="red"
 }
 
 .nappi {
-	background-color:"red";
-	color:"red";
+	bgColor="#0000a0"
 }
 
 .pressed {
-	border-bottom-color: 'blue';
+	border-bottom-color='blue'
 	
 }
